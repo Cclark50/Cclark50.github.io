@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Christian Clark's ePortfolio
+title: CS499 Capstone Project
 ---
 
 # Introduction
