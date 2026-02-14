@@ -1,6 +1,5 @@
 ---
 layout: default
-title: CS499 Capstone Project
 ---
 
 # Introduction
