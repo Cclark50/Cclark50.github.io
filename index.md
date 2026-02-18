@@ -19,8 +19,10 @@ private const val HIGHEST_WEIGHT: Float = 3000f
 private const val LOWEST_WEIGHT: Float = 0.1f
 fun Float.isValidWeight(): Boolean = this in LOWEST_WEIGHT..HIGHEST_WEIGHT
 
-```
-Something like this might seem insignificant, but just having the ability to, from anywhere in the code, validate a float keeps my code secure. I can have a much easier way to prevent invalid weights from being entered and having localized constants means that any time I need to change the weight range, I only have to change it in one place. These small optimizations can make a big difference in the long run.
+```kotlin
+Something like this might seem insignificant, but just having the ability to, from anywhere in the code, validate a float keeps my code secure. I can have a much easier way to prevent invalid weights from being entered and having localized constants means that any time I need to change the weight range, I only have to change it in one place. These small optimizations can make a big difference in the long run. This both demonstrates security, since I have a centralized place to validate input data, and any changes that need to be done is done once, meaning future mistakes on validation cannot happen.
+
+This is in addition to many other successes in my studies at SNHU. In my CS370 class, where I was tasked to create a neural network artificial intelligence that could solve a maze. Because of some oversights in portions of the code I was tasked to not touch, It became extremely difficult if not impossible to train the AI to have a 100% success rate. Because of this, I had to make many changes structurally to the code, both fixing bugs and changing the reward structure to make it possible to train the AI to have a 100% success rate. The entire changelog was documented clearly with detailed explanations of each change. (https://github.com/Cclark50/CS370-Pirate-Maze)[https://github.com/Cclark50/CS370-Pirate-Maze]. This demonstrates my ability to communicate with stakeholders, and my ability to communicate between team members, since I can adequately express the changes made to the code and the reasoning behind them.
 
 CONTINUE SELF ASSESSMENT
 
