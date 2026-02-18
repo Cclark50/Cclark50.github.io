@@ -13,17 +13,27 @@ of Science in Computer Science.
 My time in this course has taught me quite a lot about the deeper aspects of mobile development, and even though it's not my ideal career path, I believe that my ability to learn and adapt to more complex problems is a valuable skill that will serve me well in the future. Application development is not as simple as some might think at first glance, and I think my demonstration of my ability to take my old application code and rewrite it to improve it will help my future. 
 
 In particular, I enjoy the small little uses of languages like Kotlin's ability to overload classes with new methods. 
-```
+```kotlin
 
 private const val HIGHEST_WEIGHT: Float = 3000f
 private const val LOWEST_WEIGHT: Float = 0.1f
 fun Float.isValidWeight(): Boolean = this in LOWEST_WEIGHT..HIGHEST_WEIGHT
 
-```kotlin
-Something like this might seem insignificant, but just having the ability to, from anywhere in the code, validate a float keeps my code secure. I can have a much easier way to prevent invalid weights from being entered and having localized constants means that any time I need to change the weight range, I only have to change it in one place. These small optimizations can make a big difference in the long run. This both demonstrates security, since I have a centralized place to validate input data, and any changes that need to be done is done once, meaning future mistakes on validation cannot happen.
+```
+Something like this might seem insignificant, but just having the ability to, from anywhere in the code, validate a float keeps my code secure. I can have a much easier way to prevent invalid weights from being entered and having localized constants means that any time I need to change the weight range, I only have to change it in one place. These small optimizations can make a big difference in the long run. This both demonstrates security, since I have a centralized place to validate input data, and any changes that need to be done is done once, meaning future mistakes on validation cannot happen. 
 
-[CS370-Pirate-Maze](https://github.com/Cclark50/CS370-Pirate-Maze)
+In this same project, I changed out my original raw SQLite queries, which had the chance to have SQL injection vulnerabilities with Room, giving me a much more secure way to interact with the database. Not only does it prevent SQL injection, but it also makes the code more readable and maintainable since all queries are simplified without the excessive boilerplate code I had to have with each query. This security is necessary since SQL always has the chance to be vulnerable to SQL injection attacks unless properly sanitized or parameterized. 
+
+#### [CS370-Pirate-Maze](https://github.com/Cclark50/CS370-Pirate-Maze)
+
 This is in addition to many other successes in my studies at SNHU. In my CS370 class, where I was tasked to create a neural network artificial intelligence that could solve a maze. Because of some oversights in portions of the code I was tasked to not touch, It became extremely difficult if not impossible to train the AI to have a 100% success rate. Because of this, I had to make many changes structurally to the code, both fixing bugs and changing the reward structure to make it possible to train the AI to have a 100% success rate. The entire changelog was documented clearly with detailed explanations of each change. . This demonstrates my ability to communicate with stakeholders, and my ability to communicate between team members, since I can adequately express the changes made to the code and the reasoning behind them.
+
+For my artifacts in this class, I have built upon the same artifact for all three categories, improving upon the entire codebase. My original Weight-Tracker Android Application has the buisiness logic built in only 3 days and it shows, but now I have acquired the chance to rewrite it in a much more well-written way. I could still work on it further to make it as polished as I can, but for now the code base has been improved significantly. The ehancements to the artifact are broken up into three categories:
+- Software Design and Engineering
+- Data Structures and Algorithms
+- Databases
+
+Each of these categories will show and discuss the enhancements and why they contribute to my overall outcomes and improvements as a developer.
 
 CONTINUE SELF ASSESSMENT
 
