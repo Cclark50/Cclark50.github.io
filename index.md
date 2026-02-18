@@ -70,6 +70,6 @@ By implementing Room I was able to see just how much extra code it required to u
 
 Using Room and its compile time query validation, I can catch errors early, demonstrating the ability to address potential design flaws in software architecture during the requirements phase and find and eradicate security vulnerabilities or bugs. Additionally, by using Room instead of raw SQLite, I demonstrate my ability to create industry-standard software designs (Google Developers, 2025).
 
-REFERENCES:
+### REFERENCES:
 
 Google Developers. (December 4, 2025). Save data in a local database using Room. Google Developers. https://developer.android.com/training/data-storage/room
