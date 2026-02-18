@@ -35,8 +35,6 @@ For my artifacts in this class, I have built upon the same artifact for all thre
 
 Each of these categories will show and discuss the enhancements and why they contribute to my overall outcomes and improvements as a developer.
 
-CONTINUE SELF ASSESSMENT
-
 ## Code Review
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/az0HTZNs1O8" frameborder="0" allowfullscreen></iframe>
