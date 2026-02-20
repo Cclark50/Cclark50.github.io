@@ -63,7 +63,9 @@ notifications.
 
 This was a journey of learning a new language and rewriting an already existing application into another language. While I am fluent in Java, I had never touched Kotlin before this rewrite. During this enhancement, I was also able to touch up on some smaller parts of the application I was unhappy with and make those improvements, even if they're invisible to the end user. 
 
-By introducing Kotlin, I was able to demonstrate the ability to support decision making for software design stakeholders by creating an environment where both Kotlin and Java developers can work together on the same project, thus increasing the possible engineering pool. Kotlin also allows me to overload the Float class and add a custom method to calculate whether or not a particular float is within a valid range, ensuring data integrity and accuracy and demonstrating the ability to define an approach that ensures all data are explicitly validated. Finally, Kotlin gives me the ability to use more modern features that Java still lacks, meaning I can use more targeted features of the language to demononstrate the ability to create more robust and efficient code to deliver value and accomplish industry-specific goals. The 
+By introducing Kotlin, I was able to demonstrate the ability to support decision making for software design stakeholders by creating an environment where both Kotlin and Java developers can work together on the same project, thus increasing the possible engineering pool. Kotlin also allows me to overload the Float class and add a custom method to calculate whether or not a particular float is within a valid range, ensuring data integrity and accuracy and demonstrating the ability to define an approach that ensures all data are explicitly validated. Finally, Kotlin gives me the ability to use more modern features that Java still lacks, meaning I can use more targeted features of the language to demononstrate the ability to create more robust and efficient code to deliver value and accomplish industry-specific goals.
+
+[Milestone 2 Narrative](https://github.com/Cclark50/Cclark50.github.io/blob/main/Milestone%202%20-%20Christian%20Clark.docx)
 
 ## [CS499 Weight-Tracker Android Application - Data Structures and Algorithms Category](https://github.com/Cclark50/CS360-Weight-Tracker/tree/Adding-graph)
 
@@ -73,6 +75,8 @@ This was a feature I wanted to implement for my CS360 class, but was not require
 
 With my creation of this graph fragment, I had to create an algorithm that tied data points to indexes and reverse them to ensure that the graph was displayed correctly. This demonstrates the ability to program solutions to solve logic problems and implement them in software. By having a graph in my application, I demonstrated my ability to communicate appropriately to specific audiences and contexts by giving the user a visual representation of their data. Frequent comments in this fragment clearly express the time and space complexities of the algorithm used to generate the graph points and demonstrates my ability to provide contextual, in-code comments that result in easily readable and understandable code.
 
+[Milestone 3 Narrative](https://github.com/Cclark50/Cclark50.github.io/blob/main/Milestone%203%20-%20Christian%20Clark.docx)
+
 ## [CS499 Weight-Tracker Android Application - Databases Category](https://github.com/Cclark50/CS360-Weight-Tracker/tree/Room)
 
 As one last enhancement continuing from the previous category, I replaced my SQLite database with Room, a modern persistence library for Android. Room provides a simple and powerful API for accessing data in SQLite databases, and it also provides compile-time checks for SQL queries, which helps to prevent common errors and improve performance. 
@@ -80,6 +84,8 @@ As one last enhancement continuing from the previous category, I replaced my SQL
 By implementing Room I was able to see just how much extra code it required to use SQLite by itself. Room made using SQLite databases much easier to work with as I didn't need to write 50+ lines of boilerplate code to interact with the database. It did require a good amount of set up but should I want to, I can scale my database queries much faster and easier than having to write the same code to access a table. Using Room I was also able to consolidate my data classes making it much easier to pass around data. But, by implementing Room, I had to refactor all of my code to implement threading so that all database operations are performed on a background thread to avoid blocking the UI thread. This was actually the most heavy of my refactorings, as I had to modify all my existing code to use threading, along with adding an entity and DAO for each table in my database.
 
 Using Room and its compile time query validation, I can catch errors early, demonstrating the ability to address potential design flaws in software architecture during the requirements phase and find and eradicate security vulnerabilities or bugs. Additionally, by using Room instead of raw SQLite, I demonstrate my ability to create industry-standard software designs (Google Developers, 2025).
+
+[Milestone 4 Narrative](https://github.com/Cclark50/Cclark50.github.io/blob/main/Milestone%204%20-%20Christian%20Clark.docx)
 
 ### REFERENCES:
 
